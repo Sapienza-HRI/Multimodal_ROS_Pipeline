@@ -12,7 +12,7 @@ This multimodal pipeline was developed to facilitate Human-Robot Interaction in 
 
 ### Prerequisites
 * Create a ROS workspace
-* Access the workspace and download the required data to run the system, available at this [link](https://drive.google.com/drive/folders/1D6eX82cT9xsVohmB5VHu35TXJCwXFaH7?usp=sharing) 
+* Access the workspace and download the required data to run the system, available at this [link](https://drive.google.com/file/d/1E6dfyJkKRNv8qX9boAGp0XFRY9keAsNL/view?usp=sharing) 
 
 ### Installation
 * Clone this repository in your ROS workspace:
