@@ -1,0 +1,47 @@
+# Speech
+scikit-learn==1.0.2
+numpy==1.22.4
+tqdm==4.64.0
+torch==1.12.0
+torchvision==0.13.0
+torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cpu
+torchtext==0.13.0
+transformers==4.19.2
+seaborn==0.12.1
+
+vosk==0.3.43
+pyaudio==0.2.12
+openpyxl==3.0.10
+praat-parselmouth==0.4.2
+deepmultilingualpunctuation==1.0.1
+click==7.0
+psutil==5.8
+tokenizers==0.12.1
+sentencepiece==0.1.95
+autogluon.text==0.5.2
+autogluon.core==0.5.2
+stanza==1.5.0
+py-picotts==0.1.2
+wave==0.0.2
+scipy==1.5.4
+pytorch-crf==0.7.2
+empy==3.3.4
+urllib3==1.26.16
+playsound==1.3.0
+scikit-image==0.19.3
+
+pandas==1.4.4
+protobuf==3.18.1
+Pillow==9.0.1
+tensorboard==2.11.2
+catkin-pkg==0.5.2
+rospkg==1.4.0
+PyGObject==3.44.1
+
+# Gesture
+mediapipe==0.10.3
+tensorflow==2.11.1
+matplotlib==3.7.2
+pyparsing==3.0.9
+opencv-contrib-python==4.8.1.78   
+opencv-python==4.8.1.78
