@@ -1,2 +1,0 @@
-string pose_class
-float64 class_accuracy
