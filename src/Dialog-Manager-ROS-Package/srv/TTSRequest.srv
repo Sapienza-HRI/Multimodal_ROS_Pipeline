@@ -1,0 +1,4 @@
+string command
+string type
+string[] sentences
+string speaker_uuid

@@ -1,0 +1,6 @@
+FrameMessage frame
+---
+string speaker_uuid
+string result_sentence
+string task_name
+string[] args

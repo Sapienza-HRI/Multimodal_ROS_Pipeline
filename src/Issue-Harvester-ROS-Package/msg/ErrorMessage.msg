@@ -1,0 +1,4 @@
+int16 severity
+string error_name
+string error_sentence
+string long_error

@@ -1,0 +1,545 @@
+{
+    "APPEAR": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Possessor",
+                "Possessor_Determiner",
+                "Quantity",
+                "Theme"
+            ],
+            "Function": "handle_appear"
+        }
+    ],
+    "APPROACH": [
+        {
+            "Arguments": [
+                "Agent",
+                "Location",
+                "Theme"
+            ],
+            "Function": "handle_approach"
+        }
+    ],
+    "ARRIVE": [
+        {
+            "Arguments": [
+                "Conditional",
+                "Location",
+                "Location_Per",
+                "Location_Spec"
+            ],
+            "Function": "handle_arrive"
+        }
+    ],
+    "BEGIN": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Direction",
+                "Location",
+                "Location_Spec",
+                "Quantity",
+                "Theme"
+            ],
+            "Function": "handle_begin"
+        }
+    ],
+    "BE_EXIST": [
+        {
+            "Arguments": [
+                "Agent",
+                "Attribute",
+                "Attribute_Spec",
+                "Conditional",
+                "Day",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Location_Time",
+                "Negation",
+                "Possessor",
+                "Possessor_Attribute",
+                "Possessor_Determiner",
+                "Possessor_Per",
+                "Quantity",
+                "Specifier",
+                "Theme",
+                "Theme_Determiner",
+                "Time",
+                "Time_Spec"
+            ],
+            "Function": "handle_be_exist"
+        }
+    ],
+    "BLOCK": [
+        {
+            "Arguments": [
+                "Theme"
+            ],
+            "Function": "handle_block"
+        }
+    ],
+    "BREAK_DETERIORATE": [
+        {
+            "Arguments": [
+                "Attribute_Spec",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Possessor",
+                "Specifier",
+                "Theme",
+                "Theme_Determiner"
+            ],
+            "Function": "handle_break_deteriorate"
+        }
+    ],
+    "BRING": [
+        {
+            "Arguments": [
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_bring"
+        }
+    ],
+    "CHANGE": [
+        {
+            "Arguments": [
+                "Direction",
+                "Location",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_change"
+        }
+    ],
+    "CHECK": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Possessor",
+                "Possessor_Determiner",
+                "Theme",
+                "Theme_Determiner",
+                "Time"
+            ],
+            "Function": "handle_check"
+        }
+    ],
+    "CONTINUE": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Theme"
+            ],
+            "Function": "handle_continue"
+        }
+    ],
+    "COUNT": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Attribute_Spec",
+                "Location",
+                "Location_Per",
+                "Negation",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_count"
+        }
+    ],
+    "COVER": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_cover"
+        }
+    ],
+    "CUT": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Per",
+                "Theme",
+                "Theme_Determiner"
+            ],
+            "Function": "handle_cut"
+        }
+    ],
+    "DETECT": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Location",
+                "Location_Determiner",
+                "Location_Per",
+                "Location_Spec",
+                "Possessor",
+                "Possessor_Attribute",
+                "Quantity",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_detect"
+        }
+    ],
+    "DISCARD": [
+        {
+            "Arguments": [
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_discard"
+        }
+    ],
+    "DO": [
+        {
+            "Arguments": [
+                "Location",
+                "Possessor",
+                "Possessor_Attribute",
+                "Quantity",
+                "Theme",
+                "Time"
+            ],
+            "Function": "handle_do"
+        }
+    ],
+    "DRY": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_dry"
+        }
+    ],
+    "FILL": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Location",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_fill"
+        }
+    ],
+    "FIND": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_find"
+        }
+    ],
+    "FINISH_CONCLUDE_END": [
+        {
+            "Arguments": [
+                "Theme",
+                "Time",
+                "Location"
+            ],
+            "Function": "handle_finish"
+        }
+    ],
+    "GIVE": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Location",
+                "Location_Spec",
+                "Possessor",
+                "Possessor_Attribute",
+                "Possessor_Negation",
+                "Theme"
+            ],
+            "Function": "handle_give"
+        }
+    ],
+    "GO": [
+        {
+            "Arguments": [
+                "Agent",
+                "Direction",
+                "Direction_Spec",
+                "Location",
+                "Location_Num",
+                "Location_Per",
+                "Location_Spec",
+                "Quantity",
+                "Theme"
+            ],
+            "Function": "handle_go"
+        }
+    ],
+    "HARVEST": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Day",
+                "Location",
+                "Location_Num",
+                "Location_Per",
+                "Location_Spec",
+                "Negation",
+                "Quantity",
+                "Specifier",
+                "Theme",
+                "Theme_Determiner",
+                "Time",
+                "Time_Spec"
+            ],
+            "Function": "handle_harvest"
+        }
+    ],
+    "HAVE": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Attribute_Spec",
+                "Location",
+                "Location_Per",
+                "Possessor",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_have"
+        }
+    ],
+    "HELP": [
+        {
+            "Arguments": [
+                "Agent",
+                "Beneficiary",
+                "Possessor",
+                "Theme"
+            ],
+            "Function": "handle_help"
+        }
+    ],
+    "KNOW": [
+        {
+            "Arguments": [
+                "Location",
+                "Possessor",
+                "Possessor_Attribute",
+                "Specifier",
+                "Theme",
+                "Theme_Determiner"
+            ],
+            "Function": "handle_know"
+        }
+    ],
+    "PASS-THROUGH": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Per",
+                "Theme"
+            ],
+            "Function": "handle_pass-through"
+        }
+    ],
+    "PLACE": [
+        {
+            "Arguments": [
+                "Agent",
+                "Attribute",
+                "Attribute_Spec",
+                "Direction",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_place"
+        }
+    ],
+    "PROCEED": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Spec"
+            ],
+            "Function": "handle_proceed"
+        }
+    ],
+    "PRUNE": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Per",
+                "Theme",
+                "Theme_Determiner",
+                "Time"
+            ],
+            "Function": "handle_prune"
+        }
+    ],
+    "RAIN": [
+        {
+            "Arguments": [
+                "Time"
+            ],
+            "Function": "handle_rain"
+        }
+    ],
+    "REACH": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Per",
+                "Location_Spec"
+            ],
+            "Function": "handle_reach"
+        }
+    ],
+    "REMOVE": [
+        {
+            "Arguments": [
+                "Agent",
+                "Attribute",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Quantity",
+                "Theme"
+            ],
+            "Function": "handle_remove"
+        }
+    ],
+    "RUN-DOWN": [
+        {
+            "Arguments": [
+                "Possessor",
+                "Theme"
+            ],
+            "Function": "handle_run-down"
+        }
+    ],
+    "SEE": [
+        {
+            "Arguments": [
+                "Agent",
+                "Attribute",
+                "Attribute_Spec",
+                "Location",
+                "Negation",
+                "Possessor",
+                "Quantity",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_see"
+        }
+    ],
+    "SHOW": [
+        {
+            "Arguments": [
+                "Attribute",
+                "Attribute_Spec",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_show"
+        }
+    ],
+    "SNOW": [
+        {
+            "Arguments": [
+                "Time",
+                "Time_Spec"
+            ],
+            "Function": "handle_snow"
+        }
+    ],
+    "SPEAK": [
+        {
+            "Arguments": [
+                "Theme"
+            ],
+            "Function": "handle_speak"
+        }
+    ],
+    "STOP": [
+        {
+            "Arguments": [
+                "Agent",
+                "Conditional",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Time",
+                "Theme"
+            ],
+            "Function": "handle_stop"
+        }
+    ],
+    "TELL": [
+        {
+            "Arguments": [
+                "Agent",
+                "Attribute",
+                "Attribute_Spec",
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Negation",
+                "Possessor",
+                "Possessor_Attribute",
+                "Quantity",
+                "Recipient",
+                "Specifier",
+                "Theme"
+            ],
+            "Function": "handle_tell"
+        }
+    ],
+    "TURN": [
+        {
+            "Arguments": [
+                "Time",
+                "Degree",
+                "Direction",
+                "Direction_Spec"
+            ],
+            "Function": "handle_turn"
+        }
+    ],
+    "WET": [
+        {
+            "Arguments": [
+                "Location",
+                "Location_Per",
+                "Location_Spec",
+                "Theme"
+            ],
+            "Function": "handle_wet"
+        }
+    ],
+    "WORK": [
+        {
+            "Arguments": [
+                "Specifier",
+                "Theme",
+                "Time"
+            ],
+            "Function": "handle_work"
+        }
+    ]
+}

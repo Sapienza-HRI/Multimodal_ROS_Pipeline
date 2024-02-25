@@ -1,0 +1,4 @@
+int16 severity
+string problem_name
+string problem_sentence
+string task_uuid
